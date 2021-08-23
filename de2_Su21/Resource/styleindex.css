@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    border: solid 1px blue;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+h2{
+    margin-top: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+}
+.father_img{
+    position: relative;
+}
+.service{
+    margin-top: 20px;
+}
+.text_img{
+    width: calc(100% - 30px);
+    position: absolute;
+    background-color: rgb(224 224 224 / 28%);
+    color: white;
+    bottom: 0px;
+    padding-left: 10px;
+}
+.p{
+    text-align: center;
+    color: grey;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.combo{
+
+    background-color: rgb(219, 218, 218);
+}
+.combo p{
+    padding-left: 10px;
+}
+.combo_free{
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+.footer{
+    background-color: #000;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

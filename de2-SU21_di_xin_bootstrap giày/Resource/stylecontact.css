@@ -1,0 +1,14 @@
+label{
+    display: inline-block;
+    width: 100px;
+    background-color: #fff;
+}
+
+input{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#send{
+    margin-left: 150px;
+}

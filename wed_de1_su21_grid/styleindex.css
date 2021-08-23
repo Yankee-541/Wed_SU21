@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    width: 100%;
+    height: 100%;
+    border: solid 1px rgb(72, 72, 236);
+}
+.header{
+    height: 10vh;
+    display: flex;
+}
+.logochanel{
+    margin-left: 50px;
+    width: calc(25% - 50px);
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header img{
+    width: 90px;
+    height:70px;
+}
+.link_a{
+    width: 50%;
+}
+.link_a ul{
+    display: flex;
+    list-style-type: none;
+}
+.link_a ul li{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_a ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.search{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search button{
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+}
+.img_banner{
+        width: 100%;
+}
+img{
+    width: 100px;
+}
+.img_banner img{
+    object-fit: fill;
+    width: 100%;
+}
+.body{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20% 80%;
+    grid-template-areas: 
+    "h1 h1 h1 h1"
+    "h2 h3 h4 h5";
+    grid-gap:10px 30px;
+
+}
+.body h1{
+    grid-area: h1;
+}
+.sale_off:first-child{
+    grid-area: h2;
+}
+.sale_off:nth-child(2){
+    grid-area: h3;
+}
+.sale_off:nth-child(3){
+    grid-area: h4;
+}
+.sale_off:last-child{
+    grid-area: h5;
+}
+h1{
+    text-align: center;
+    color: red;
+    padding-top: 20px;
+    margin: 30px;
+    font-size: 30px;
+}
+.sale_off{
+    box-shadow: rgb(116, 113, 113) 1px 1px 10px 3px;
+    font-size: 16px;
+    text-align: center;
+}
+.sale_off img{
+    width: 100%;
+    height: 40vh;
+    max-width: fit-content;
+    margin-bottom: 10px;
+}
+.sale_off p{
+    font-weight: 700;
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sale_off p del{
+    color: rgb(147, 140, 140);
+}
+.sale_off .buy_now{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(219, 152, 16);
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.vip{
+    background-image: url(images/Banner02.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vip h2{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "h11 h12";
+    padding-top: 40px;
+    grid-gap: 30px;
+}
+.chanel_n5:first-child{
+    grid-area: h11;
+}
+.chanel_n5:last-child{
+    grid-area: h12;
+}
+.chanel_n5{
+    box-shadow: rgb(116, 113, 113) 1px 1px 10px 3px;
+    height: 100%;
+    font-size: 17px;
+}
+.chanel_n5 img{
+    float: left;
+    width: 50%;
+    max-width: fit-content;
+}
+.chanel_n5 h3{
+    margin: 15px 0;
+    font-size: 20px;
+}
+.chanel_n5 p{
+    margin-bottom: 7px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.854);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.footer p,h5{
+    margin:0 0 15px 0;
+}
